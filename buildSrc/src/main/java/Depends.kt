@@ -23,6 +23,7 @@ object Depends {
     }
 
     object Android {
+
         const val gradle = "com.android.tools.build:gradle:${Versions.gradleVersion}"
         const val kotlinGradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlinGradleVersion}"
         const val runnerPackage = "androidx.test.runner.AndroidJUnitRunner"
